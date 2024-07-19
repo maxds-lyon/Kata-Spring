@@ -32,11 +32,13 @@ Ce projet est un exemple de Kata Bowling utilisant Java et Spring Boot. Il vous 
 - `src/main/java/com/max/lyon/kata/`: Contient les classes principales de l'application.
 - `src/main/java/com/max/lyon/kata/helloworld/HelloController.java`: Exemple de contrôleur REST.
 - `pom.xml`: Fichier de configuration Maven.
+- `src/main/resources/application.properties`: Fichier de configuration de l'application, y compris la configuration de la base de données H2.
 
 ## Fonctionnalités
 
 - Calcul du score d'un jeu de bowling.
 - API REST pour soumettre les lancers et obtenir le score.
+- Persistance des données avec une base de données H2.
 
 ## Endpoints
 

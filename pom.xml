@@ -7,28 +7,36 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.1</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath /> 
 	</parent>
 	<groupId>com.max.lyon</groupId>
 	<artifactId>kata</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Kata</name>
 	<description>Kata project for Spring Boot</description>
-	<url />
+	<url>https://github.com/maxds-lyon/Kata-Spring</url>
 	<licenses>
-		<license />
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+			<distribution>repo</distribution>
+		</license>
 	</licenses>
 	<developers>
-		<developer />
+		<developer>
+			<id>kdelfour</id>
+			<name>Kevin Delfour</name>
+			<email>kevin.delfour@maxds.fr</email>
+		</developer>
 	</developers>
 	<scm>
-		<connection />
-		<developerConnection />
-		<tag />
-		<url />
+		<connection>scm:git:git://github.com/maxds-lyon/Kata-Spring.git</connection>
+		<developerConnection>scm:git:ssh://github.com:maxds-lyon/Kata-Spring.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/maxds-lyon/Kata-Spring</url>
 	</scm>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -55,6 +63,24 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>3.12.4</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>3.21.0</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
